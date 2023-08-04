@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var nome = prompt("Digite seu nome: ")
+        var idade = prompt('Digite a sua idade: ')
+        var cidade = prompt("Digite a sua cidade: ")
+        const pessoa ={
+            nome: nome,
+            idade: idade,
+            cidade: cidade,
+            ola(){
+           alert("Olá, meu nome é "+ this.nome+" e eu tenho "+ this.idade+ " anos e moro em "+ this.cidade)
+
+        }
+        }
+       
+
+    pessoa.ola()
+    </script>
+</body>
+</html>
